@@ -20,7 +20,7 @@ access_token_secret = 'your_access_token_secret'
 
 ```sh
 python timeline_wordcloud.py
-``
+```
 
 ## Example
 
