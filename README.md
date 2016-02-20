@@ -14,4 +14,4 @@ python timeline_wordcloud.py
 
 ## Example
 
-[openbikes_wordcloud](http://i.imgur.com/ORSROdA.png)
+![openbikes_wordcloud](http://i.imgur.com/ORSROdA.png)
