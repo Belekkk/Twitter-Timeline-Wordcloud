@@ -1,4 +1,4 @@
-# Twitter Wordcloud - `Python
+# Twitter Wordcloud - `Python`
 
 ## Install requirements
 
