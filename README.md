@@ -1,4 +1,4 @@
-# Twitter Wordcloud - `Python
+# Twitter Wordcloud - `Python`
 
 ## Install requirements
 
@@ -10,4 +10,4 @@ pip install -r requirements.txt
 
 ```sh
 python timeline_wordcloud.py
-```
+``
