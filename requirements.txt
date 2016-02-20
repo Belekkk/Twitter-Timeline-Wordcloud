@@ -1,0 +1,5 @@
+tweepy
+scipy
+matplotlib
+stop-words
+git+git://github.com/amueller/word_cloud.git
