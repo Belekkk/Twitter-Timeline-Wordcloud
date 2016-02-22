@@ -21,7 +21,6 @@ def get_user_tweets(keys, user, nb=100):
     auth.set_access_token(keys.access_token, keys.access_token_secret)
     api = tweepy.API(auth)
     public_tweets = api.user_timeline(id=user, count=nb)
-    print([tweet.text for tweet in public_tweets])
     return [tweet.text for tweet in public_tweets]
 
 
@@ -62,6 +61,6 @@ def wordcloud(data, user, mask='extras/twitter_mask.png', stopwords=stop_words, 
     plt.show()
 
 
-tweets = ' '.join(get_user_tweets(keys, user='OpenBikes_', nb=1000))
-cleaned_tweets = clean_tweets(tweets)
-wordcloud(data=cleaned_tweets, user='OpenBikes_', stopwords=stop_words)
+tweets = ' '.join(get_user_tweets(keys, user='fhollande', nb=1000))
+# cleaned_tweets = clean_tweets(tweets)
+# wordcloud(data=cleaned_tweets, user='fhollande', stopwords=stop_words)
