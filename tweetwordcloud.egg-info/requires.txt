@@ -1,0 +1,5 @@
+tweepy
+scipy
+matplotlib
+stop-words
+wordcloud

@@ -9,13 +9,14 @@ Simple way to get tweets and visualizing them into a wordcloud.
 ### Installation
 
 ```sh
-pip install git+git//github.com/axelbellec/twitter-timeline-wordcloud.git
+pip install git+git://github.com/axelbellec/twitter-timeline-wordcloud.git
 ```
 
-### Run locally
+### Running locally
 
 Install requirements :
 ```sh
+git clone http://github.com/axelbellec/twitter-timeline-wordcloud.git twc
 python setup.py install
 ```
 
